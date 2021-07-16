@@ -1,6 +1,6 @@
 CREATE employee {
   id INT PRIMARYKEY,
-  name VARCHAR[50] NOT NULL,
+  name VARCHAR[50],
   birthday DATE, 
   email VARCHAR(100)
 };
