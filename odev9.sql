@@ -1,3 +1,3 @@
 --SELECT city, country FROM city INNER JOIN country ON city.country_id = country.id;
---SELECT payment_id, first_name, last_name FROM payment INNER JOIN customer ON payment.customer_id = customer.id;
---SELECT rental_id, first_name, last_name FROM rental INNER JOIN customer ON customer.id = rental.customer_id;
+--SELECT payment.id, first_name, last_name FROM payment INNER JOIN customer ON payment.customer_id = customer.id;
+--SELECT rental.id, first_name, last_name FROM rental INNER JOIN customer ON customer.id = rental.customer_id;
