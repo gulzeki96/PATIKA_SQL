@@ -1,0 +1,4 @@
+--SELECT COUNT(*) FROM film WHERE length > (SELECT AVR(length) FROM film);
+--SELECT COUNT(*) FROM film WHERE rental_rate = (SELECT MAX(rental_rate) FROM film);
+--SELECT * FROM film WHERE rental_rate = (SELECT MIN(rental_rate) FROM film) OR replacement_cost  = (SELECT MIN(replacement_cost ) FROM film);
+--SELECT * FROM payment WHERE amount = (SELECT MAX(amount) FROM payment);
